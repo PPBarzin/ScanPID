@@ -1,0 +1,8 @@
+python create_coco_tf_record.py --logtostderr \
+      --train_image_dir="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\img\training" \
+      --val_image_dir="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\img\validation" \
+      --test_image_dir="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\img\test" \
+      --train_annotations_file="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\json\training\output.json" \
+      --val_annotations_file="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\json\validation\output.json" \
+      --testdev_annotations_file="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\json\test\output.json" \
+      --output_dir="C:\Users\ppbar\Documents\Projects\ScanPID\image training\valve\saveRecord"
